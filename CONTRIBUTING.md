@@ -15,7 +15,7 @@ First off, thank you for considering contributing to OrganicFlow! It's people li
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [OrganicFlow Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [project_email@example.com].
+This project and everyone participating in it is governed by the [OrganicFlow Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [project_info@blueconvergence.se].
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ PRs to OrganicFlow are always welcome and can be a quick way to get your fix or 
 1. Only fix/add the functionality in question OR address wide-spread whitespace/style issues, not both.
 2. Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
 3. Address a single concern in the least number of changed lines as possible.
-4. Include documentation in the repo or on our [docs site](https://example.com).
+4. Include documentation in the repo or on our [docs site](https://blueconvergence.se).
 5. Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
 
 For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
