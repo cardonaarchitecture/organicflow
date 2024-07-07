@@ -1,23 +1,28 @@
-# OrganicFlow: AI-Empowered Organic Architectural Design
+# OrganicFlow Design Studio
+
+AI-Empowered Organic Architectural Design Application
 
 ## Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
+- [OrganicFlow Design Studio](#organicflow-design-studio)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Key Features](#key-features)
+  - [Tech Stack](#tech-stack)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the Application](#running-the-application)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-OrganicFlow is a cutting-edge proof-of-concept for a web-based architectural planning application that seamlessly integrates principles of Organic Design and sustainability with advanced technology. This innovative project demonstrates the core functionality and integration of key technologies to revolutionize architectural design showcases and workflows.
+OrganicFlow is a cutting-edge proof-of-concept for a web-based architectural planning application that seamlessly integrates principles of Organic Design and sustainability with advanced technology. This project aims to explore the core functionality and potential integration of key technologies to revolutionize architectural design showcases and workflows.
 
-By harnessing the power of artificial intelligence, 3D visualization, and sustainable design principles, OrganicFlow aims to transform how architects conceptualize, present, and iterate on their designs. It serves as a bridge between creative vision and technological capability, offering a glimpse into the future of architectural practice.
+By harnessing the power of artificial intelligence, 3D visualization, and sustainable design principles, OrganicFlow aspires to transform how architects conceptualize, present, and iterate on their designs. It serves as a bridge between creative vision and technological capability, offering a glimpse into the future of architectural practice.
 
 ## Key Features
 
@@ -28,6 +33,8 @@ By harnessing the power of artificial intelligence, 3D visualization, and sustai
 - ♻️ **Sustainability Focus**: Emphasizes eco-friendly materials, energy-efficient designs, and environmental impact assessments.
 - 🚀 **Scalable and Extensible**: Designed with a modular architecture to facilitate future enhancements and integrations.
 - 🤝 **Collaborative Features**: Enables real-time collaboration and feedback on design projects.
+
+This POC showcases the potential of combining AI, 3D visualization, and sustainable design principles to elevate architectural showcases and streamline the design process. Join us in redefining the boundaries of organic, technology-driven architecture!
 
 ## Tech Stack
 
@@ -49,13 +56,15 @@ By harnessing the power of artificial intelligence, 3D visualization, and sustai
 ### Installation
 
 1. Clone the repository:
-   ```
+
+   ```bash
    git clone https://github.com/yourusername/organicflow.git
    cd organicflow
    ```
 
 2. Install dependencies:
-   ```
+
+   ```bash
    yarn install
    ```
 
@@ -66,18 +75,21 @@ By harnessing the power of artificial intelligence, 3D visualization, and sustai
 ### Running the Application
 
 For development:
-```
+
+```bash
 yarn dev
 ```
 
-For production:
-```
+For production
+
+```bash
 yarn build
 yarn start
 ```
 
 Using Docker:
-```
+
+```bash
 docker build -t organicflow .
 docker run -p 3000:3000 organicflow
 ```
@@ -101,6 +113,7 @@ We welcome contributions to OrganicFlow! Here's how you can help:
 Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

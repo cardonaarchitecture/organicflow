@@ -22,6 +22,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+.cypress/
 
 # nyc test coverage
 .nyc_output
@@ -93,7 +94,7 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
+# Comment in the public line if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -128,3 +129,44 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Log files and crash reports for modern macOS versions
+.com.apple.timemachine.donotpresent
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Linux specific
+*~
+.directory
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# Editor specific files
+.idea/
+.sublime-project
+.sublime-workspace
+
+# IDE and code formatting tool files
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+
+# Miscellaneous
+gitignore_bak.txt
+ProjectStructure.txt

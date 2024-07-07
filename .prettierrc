@@ -1,0 +1,13 @@
+{
+    // This is the configuration object for the project.
+    // It specifies the formatting rules for the code.
+
+    "semi": true,
+    // If set to true, adds a semicolon at the end of every statement.
+
+    "singleQuote": true,
+    // If set to true, uses single quotes instead of double quotes for strings.
+
+    "trailingComma": "all"
+    // If set to "all", adds trailing commas wherever possible.
+}

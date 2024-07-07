@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    // Specifies the target version of ECMAScript.
+    "target": "es5",
+
+    // List of library files to be included in the compilation.
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    // Allow JavaScript files to be compiled.
+    "allowJs": true,
+
+    // Skip type checking of declaration files.
+    "skipLibCheck": true,
+
+    // Enable all strict type-checking options.
+    "strict": true,
+
+    // Ensure that casing is consistent in file names.
+    "forceConsistentCasingInFileNames": true,
+
+    // Do not emit outputs.
+    "noEmit": true,
+
+    // Enables emit interoperability between ESM and CJS modules.
+    "esModuleInterop": true,
+
+    // Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'.
+    "module": "esnext",
+
+    // Resolve module using "bundler" strategy.
+    "moduleResolution": "bundler",
+
+    // Enable importing .json files.
+    "resolveJsonModule": true,
+
+    // Transpile each file as a separate module (similar to 'ts.transpileModule').
+    "isolatedModules": true,
+
+    // Support JSX in .tsx files.
+    "jsx": "preserve",
+
+    // Enable incremental compilation.
+    "incremental": true,
+
+    // Specify path mapping to be computed relative to the 'baseUrl'.
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  // Specifies a list of glob patterns to include in the compilation.
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+
+  // Specifies a list of glob patterns to exclude from the compilation.
+  "exclude": ["node_modules"]
+}
