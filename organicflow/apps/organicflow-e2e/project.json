@@ -1,0 +1,9 @@
+{
+  "name": "organicflow-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/organicflow-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["organicflow"],
+  "// targets": "to see all targets run: nx show project organicflow-e2e --web",
+  "targets": {}
+}

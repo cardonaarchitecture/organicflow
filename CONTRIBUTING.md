@@ -3,15 +3,20 @@
 First off, thank you for considering contributing to OrganicFlow! It's people like you that make OrganicFlow such a great tool for the architectural community.
 
 ## Table of Contents
-1. [Code of Conduct](#code-of-conduct)
-2. [Getting Started](#getting-started)
-   - [Issues](#issues)
-   - [Pull Requests](#pull-requests)
-3. [Coding Guidelines](#coding-guidelines)
-4. [Commit Message Guidelines](#commit-message-guidelines)
-5. [Testing](#testing)
-6. [Documentation](#documentation)
-7. [Community](#community)
+
+- [Contributing to OrganicFlow](#contributing-to-organicflow)
+  - [Table of Contents](#table-of-contents)
+  - [Code of Conduct](#code-of-conduct)
+  - [Getting Started](#getting-started)
+    - [Issues](#issues)
+    - [Pull Requests](#pull-requests)
+  - [Coding Guidelines](#coding-guidelines)
+  - [Commit Message Guidelines](#commit-message-guidelines)
+    - [Commit Message Format](#commit-message-format)
+    - [Type](#type)
+  - [Testing](#testing)
+  - [Documentation](#documentation)
+  - [Community](#community)
 
 ## Code of Conduct
 
@@ -57,7 +62,7 @@ In general, we follow the ["fork-and-pull" Git workflow](https://github.com/susa
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
 1. All features or bug fixes **must be tested** by one or more specs (unit-tests).
-2. We follow [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) with some modifications. 
+2. We follow [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) with some modifications.
    - Use 2 spaces for indentation.
    - Prefer single quotes for strings.
    - Use semicolons at the end of each statement.
@@ -66,7 +71,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 ## Commit Message Guidelines
 
-We have very precise rules over how our git commit messages can be formatted. This leads to **more readable messages** that are easy to follow when looking through the **project history**. 
+We have very precise rules over how our git commit messages can be formatted. This leads to **more readable messages** that are easy to follow when looking through the **project history**.
 
 ### Commit Message Format
 Each commit message consists of a **header**, a **body** and a **footer**. The header has a special format that includes a **type**, a **scope** and a **subject**:

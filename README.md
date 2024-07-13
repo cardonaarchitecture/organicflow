@@ -98,7 +98,7 @@ Visit `http://localhost:3000` in your browser to access the application.
 
 ## Usage
 
-[Provide a brief guide on how to use the main features of OrganicFlow, including screenshots or GIFs if possible]
+[TODO:Provide a brief guide on how to use the main features of OrganicFlow, including screenshots or GIFs if possible]
 
 ## Contributing
 
