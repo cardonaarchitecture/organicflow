@@ -1,16 +1,22 @@
+//@ts-check
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { composePlugins, withNx } = require('@nx/next');
+
+/**
+ * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
+ **/
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
-
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.externals = [...config.externals, { canvas: 'canvas' }];
-    config.resolve.alias['@'] = path.join(__dirname, 'src')
-    return config
-  },
-
-  env: {
-    GROQ_API_KEY: process.env.GROQ_API_KEY,
+  nx: {
+    // Set this to true if you would like to use SVGR
+    // See: https://github.com/gregberge/svgr
+    svgr: false,
   },
 };
-module.exports = nextConfig;
+
+const plugins = [
+  // Add more Next.js plugins to this list if needed.
+  withNx,
+];
+
+module.exports = composePlugins(...plugins)(nextConfig);

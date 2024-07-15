@@ -1,24 +1,15 @@
-/**
- * This is the configuration file for PostCSS plugins.
- * PostCSS is a tool for transforming styles with JavaScript.
- * 
- * @module postcss.config
- * @see {@link https://postcss.org/}
- * @see {@link https://tailwindcss.com/docs/installation#using-post-css-7-with-tailwind-css-v2-0}
- * @see {@link https://github.com/tailwindlabs/tailwindcss}
- * @see {@link https://github.com/postcss/autoprefixer}
- */
+const { join } = require('path');
+
+// Note: If you use library-specific PostCSS/Tailwind configuration then you should remove the `postcssConfig` build
+// option from your application's configuration (i.e. project.json).
+//
+// See: https://nx.dev/guides/using-tailwind-css-in-react#step-4:-applying-configuration-to-libraries
 
 module.exports = {
-  /**
-   * The plugins configuration object.
-   * 
-   * @property {Object} plugins - The plugins configuration object.
-   * @property {Object} plugins.tailwindcss - The Tailwind CSS plugin configuration.
-   * @property {Object} plugins.autoprefixer - The Autoprefixer plugin configuration.
-   */
   plugins: {
-    tailwindcss: {},
+    tailwindcss: {
+      config: join(__dirname, 'tailwind.config.js'),
+    },
     autoprefixer: {},
   },
-}
+};

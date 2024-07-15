@@ -1,9 +1,0 @@
-{
-  "name": "organicflow",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/organicflow",
-  "projectType": "application",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project organicflow --web",
-  "targets": {}
-}

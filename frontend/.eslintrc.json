@@ -1,27 +1,31 @@
 {
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "prettier"
-    ],
-    "plugins": [
-        "@typescript-eslint",
-        "prettier"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-                "tabWidth": 2,
-                "useTabs": false,
-                "semi": true,
-                "singleQuote": true,
-                "trailingComma": "es5",
-                "bracketSpacing": true,
-                "arrowParens": "avoid",
-                "printWidth": 100
-            }
-        ]
+  "extends": [
+    "plugin:@nx/react",
+    "next",
+    "next/core-web-vitals",
+    "../.eslintrc.json"
+  ],
+  "ignorePatterns": ["!**/*", ".next/**/*"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "@next/next/no-html-link-for-pages": "off"
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {}
+    },
+    {
+      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "env": {
+        "jest": true
+      }
     }
+  ]
 }
