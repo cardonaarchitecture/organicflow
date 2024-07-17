@@ -39,6 +39,12 @@ importers:
         specifier: ^2.3.0
         version: 2.6.3
     devDependencies:
+      '@babel/core':
+        specifier: ^7.14.5
+        version: 7.24.9
+      '@babel/preset-react':
+        specifier: ^7.14.5
+        version: 7.24.7(@babel/core@7.24.9)
       '@nestjs/schematics':
         specifier: ^10.0.1
         version: 10.1.2(chokidar@3.6.0)(typescript@5.4.5)
