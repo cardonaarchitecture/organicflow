@@ -1,7 +1,9 @@
 {
   "recommendations": [
-    
     "nrwl.angular-console",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "codezombiech.gitignore",
+    "donjayamanne.git-extension-pack",
+    "firsttris.vscode-jest-runner"
   ]
 }
