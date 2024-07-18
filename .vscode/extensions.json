@@ -4,6 +4,8 @@
     "esbenp.prettier-vscode",
     "codezombiech.gitignore",
     "donjayamanne.git-extension-pack",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "linbudu.pnpm-vscode-helper",
+    "jacano.vscode-pnpm"
   ]
 }

@@ -9,7 +9,6 @@ tmp
 node_modules
 
 # pnpm-specific files
-pnpm-lock.yaml
 .pnpm-store/
 
 # IDEs and editors
@@ -48,3 +47,18 @@ Thumbs.db
 # Next.js
 .next
 out
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# ESLint
+.eslintcache
+
+# Logs
+logs
+*.log
+
+# Storybook
+storybook-static
